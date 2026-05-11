@@ -1,0 +1,33 @@
+{
+  "originHash" : "53fbe02a5e7ffb0074bb96594adf6dd866e88447b2198397c30a6d67ad92491f",
+  "pins" : [
+    {
+      "identity" : "lazylayout",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:lvnkmn/LazyLayout.git",
+      "state" : {
+        "revision" : "d4dfdd10fd9780169b8c4b35475bb72b97ac5658",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "onionui",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:lvnkmn/OnionUI.git",
+      "state" : {
+        "revision" : "a20ec1c71d0458201fb67b0a4bf1894493c3c642",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "sourceseeds",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:lvnkmn/SourceSeeds.git",
+      "state" : {
+        "revision" : "9162f154db1148190d4e25de12d218225c769c98",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
