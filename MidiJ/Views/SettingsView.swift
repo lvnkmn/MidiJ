@@ -116,8 +116,11 @@ extension SettingsView {
         
         let titleLabel = UILabel()
             .mutated {
-                $0.font = .systemFont(ofSize: .Constants.fontSize20, weight: .semibold)
-                $0.textColor = .Constants.secondaryTextColor
+                $0.font = .systemFont(
+                    ofSize: .Constants.fontSize20,
+                    weight: .regular
+                )
+                $0.textColor = .Constants.primaryTextColor
             }
         let vStack = UIStackView()
             .verticalize()
