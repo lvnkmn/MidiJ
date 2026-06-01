@@ -172,14 +172,16 @@ Any MIDI enabled app will appear as a connection. If they have ben setup to acce
                 ### Design
                 * Maarten de Winter
                 * Rick Schot
-                * Menno Lovink
+                * Mclovink (Mclovink)
                 
                 ### Concept & Coding
-                * Menno Lovink
+                * Menno (Mclovink) Lovink
                 
                 ### Feedback and testing
+                * Ana (the Greek)
                 * (Nachtvorst) Dirk & Bram
                 * (Cosmic force) Ben
+                * Jony (synth person)
                 
                 ### Open source libraries
                 This app leverages code from the open source libraries listed below. If any of theres are from you, thanks!
