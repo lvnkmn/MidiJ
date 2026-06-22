@@ -172,13 +172,13 @@ Any MIDI enabled app will appear as a connection. If they have ben setup to acce
                 ### Design
                 * Maarten de Winter
                 * Rick Schot
-                * Mclovink (Mclovink)
+                * Menno (Mclovink) lovink
                 
                 ### Concept & Coding
                 * Menno (Mclovink) Lovink
                 
                 ### Feedback and testing
-                * Ana (the Greek)
+                * Ana Daal (LOPSIDED)
                 * (Nachtvorst) Dirk & Bram
                 * (Cosmic force) Ben
                 * Jony (synth person)
