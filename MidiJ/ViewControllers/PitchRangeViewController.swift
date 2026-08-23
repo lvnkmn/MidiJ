@@ -60,19 +60,20 @@ extension PitchRangeViewController: SettingUpViews {
     }
     
     func setupViewLayout() {
-        view.layoutMargins = .Constants.popoverMargin
-        
-        pitchRangeHeaderLabel.layout.pin(toEdges: .topLeft, shouldConsiderMargin: true)
-        
+        pitchRangeHeaderLabel.layout.pin(toEdge: .top, constant: .Constants.spacing16)
+        pitchRangeHeaderLabel.layout.pin(toEdge: .left, constant: .Constants.spacing16)
+
         pitchRangeSegmentedControl.layout.below(pitchRangeHeaderLabel).with(constant: .Constants.spacing08)
-        pitchRangeSegmentedControl.layout.pin(toEdges: .horizontal, shouldConsiderMargin: true)
-        
+        pitchRangeSegmentedControl.layout.pin(toEdge: .left, constant: .Constants.spacing16)
+        pitchRangeSegmentedControl.layout.pin(toEdge: .right, constant: -.Constants.spacing16)
+
         faderDirectionHeaderLabel.layout.below(pitchRangeSegmentedControl).with(constant: .Constants.spacing08)
-        faderDirectionHeaderLabel.layout.pin(toEdge: .left, shouldConsiderMargin: true)
-        
+        faderDirectionHeaderLabel.layout.pin(toEdge: .left, constant: .Constants.spacing16)
+
         faderDirectionSegmentedControl.layout.below(faderDirectionHeaderLabel).with(constant: .Constants.spacing08)
-        faderDirectionSegmentedControl.layout.pin(toEdges: .horizontal, shouldConsiderMargin: true)
-        faderDirectionSegmentedControl.layout.pin(toEdge: .bottom, constant: -.Constants.popOverIndicatorPadding, shouldConsiderMargin: true)
+        faderDirectionSegmentedControl.layout.pin(toEdge: .left, constant: .Constants.spacing16)
+        faderDirectionSegmentedControl.layout.pin(toEdge: .right, constant: -.Constants.spacing16)
+        faderDirectionSegmentedControl.layout.pin(toEdge: .bottom, constant: -.Constants.popOverIndicatorPadding)
     }
 }
 

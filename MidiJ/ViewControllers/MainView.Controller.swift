@@ -476,7 +476,12 @@ private extension MainView.Controller {
         presentPopover(
             viewController: UIViewController().mutated(performMutations: { it in
                 it.view = UIView()
-                    .addPinnedSubView(withPadding: .init(top: 12, left: 12, bottom: 0, right: -12), {
+                    .addPinnedSubView(withPadding: .init(
+                        top: .Constants.spacing16,
+                        left: .Constants.spacing16,
+                        bottom: -.Constants.popOverIndicatorPadding,
+                        right: -.Constants.spacing16
+                    ), {
                         UILabel()
                             .mutated(performMutations: { it in
                                 it.text = .Copy.connectingExplaination
